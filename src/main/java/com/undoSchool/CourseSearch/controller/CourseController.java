@@ -1,5 +1,6 @@
 package com.undoSchool.CourseSearch.controller;
 
+import com.undoSchool.CourseSearch.dto.CourseSearchRequest;
 import com.undoSchool.CourseSearch.model.CourseModel;
 import com.undoSchool.CourseSearch.repository.CourseRepository;
 import com.undoSchool.CourseSearch.service.CourseSearchService;
@@ -36,5 +37,11 @@ public class CourseController {
     @GetMapping("/search/both/{value}")
     public List<CourseModel> searchByTitleOrDescription(@PathVariable String value){
         return courseRepository.findByTitleContainingOrDescriptionContaining(value);
+    }
+
+    @PostMapping("/search")
+    public List<CourseModel> searchCourses(@RequestBody CourseSearchRequest request) {
+        log.info("Search request: {}", request);
+        return courseSearchService.searchCourses(request);
     }
 }
