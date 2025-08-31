@@ -1,0 +1,135 @@
+[
+  {
+    "id": "1",
+    "title": "Introduction to Algebra",
+    "description": "A beginner course that introduces algebraic principles and problem-solving techniques.",
+    "category": "Math",
+    "type": "COURSE",
+    "gradeRange": "6th–8th",
+    "minAge": 11,
+    "maxAge": 14,
+    "price": 120.00,
+    "nextSessionDate": "2025-09-10T15:00:00Z"
+  },
+  {
+    "id": "2",
+    "title": "Science Explorers Club",
+    "description": "A weekly club that lets students explore basic science through fun experiments.",
+    "category": "Science",
+    "type": "CLUB",
+    "gradeRange": "3rd–5th",
+    "minAge": 8,
+    "maxAge": 11,
+    "price": 60.00,
+    "nextSessionDate": "2025-09-12T16:00:00Z"
+  },
+  {
+    "id": "3",
+    "title": "Painting Basics",
+    "description": "An artistic course focusing on basic painting techniques using various mediums.",
+    "category": "Art",
+    "type": "COURSE",
+    "gradeRange": "4th–6th",
+    "minAge": 9,
+    "maxAge": 12,
+    "price": 95.50,
+    "nextSessionDate": "2025-09-15T14:00:00Z"
+  },
+  {
+    "id": "4",
+    "title": "One-Time Chemistry Lab",
+    "description": "A single-session lab workshop on chemical reactions and safety.",
+    "category": "Science",
+    "type": "ONE_TIME",
+    "gradeRange": "7th–9th",
+    "minAge": 12,
+    "maxAge": 15,
+    "price": 45.00,
+    "nextSessionDate": "2025-09-20T10:00:00Z"
+  },
+  {
+    "id": "5",
+    "title": "Creative Writing Workshop",
+    "description": "A course aimed at enhancing creative writing skills in young authors.",
+    "category": "Language Arts",
+    "type": "COURSE",
+    "gradeRange": "6th–8th",
+    "minAge": 11,
+    "maxAge": 14,
+    "price": 110.75,
+    "nextSessionDate": "2025-09-11T17:00:00Z"
+  },
+  {
+    "id": "6",
+    "title": "Robotics Club",
+    "description": "Students work together to build and program robots using Lego Mindstorms.",
+    "category": "Technology",
+    "type": "CLUB",
+    "gradeRange": "5th–8th",
+    "minAge": 10,
+    "maxAge": 14,
+    "price": 85.00,
+    "nextSessionDate": "2025-09-14T13:00:00Z"
+  },
+  {
+    "id": "7",
+    "title": "Intro to Python Programming",
+    "description": "Learn the basics of programming using Python in this introductory course.",
+    "category": "Technology",
+    "type": "COURSE",
+    "gradeRange": "7th–10th",
+    "minAge": 12,
+    "maxAge": 16,
+    "price": 130.00,
+    "nextSessionDate": "2025-09-18T16:00:00Z"
+  },
+  {
+    "id": "8",
+    "title": "World History Overview",
+    "description": "A brief exploration of world history focusing on key civilizations and events.",
+    "category": "History",
+    "type": "COURSE",
+    "gradeRange": "6th–9th",
+    "minAge": 11,
+    "maxAge": 15,
+    "price": 100.00,
+    "nextSessionDate": "2025-09-13T11:00:00Z"
+  },
+  {
+    "id": "9",
+    "title": "One-Time Photography Basics",
+    "description": "A single-session photography class introducing composition and lighting.",
+    "category": "Art",
+    "type": "ONE_TIME",
+    "gradeRange": "8th–12th",
+    "minAge": 13,
+    "maxAge": 18,
+    "price": 40.00,
+    "nextSessionDate": "2025-09-22T10:30:00Z"
+  },
+  {
+    "id": "10",
+    "title": "Mathematics Competition Club",
+    "description": "A club for students who love solving challenging math problems competitively.",
+    "category": "Math",
+    "type": "CLUB",
+    "gradeRange": "6th–8th",
+    "minAge": 11,
+    "maxAge": 14,
+    "price": 70.00,
+    "nextSessionDate": "2025-09-19T15:30:00Z"
+  },
+  
+  {
+    "id": "50",
+    "title": "Advanced Environmental Science",
+    "description": "Students dive deep into ecosystems, climate change, and sustainability topics.",
+    "category": "Science",
+    "type": "COURSE",
+    "gradeRange": "10th–12th",
+    "minAge": 15,
+    "maxAge": 18,
+    "price": 155.00,
+    "nextSessionDate": "2025-10-10T15:00:00Z"
+  }
+]
