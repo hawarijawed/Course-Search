@@ -76,3 +76,66 @@ spring:
       repositories:
         enabled: true
 ```
+## 🧪 Testing
+Go to spring-boot application open terminal and go to root directory `CourseSearch`. Start the app:
+```
+./mvnw spring-boot:run
+```
+Test the search API using postman:
+```
+GET http://localhost:8080/courses/search
+Content-Type: application/json
+
+{
+  "query": "Painting",
+  "category": "Art",
+  "minPrice": 50,
+  "maxPrice": 150,
+  "sort": "priceAsc",
+  "page": 0,
+  "size": 5
+}
+```
+Following output will be received:
+```
+{
+  "content": [
+    {
+      "id": "3",
+      "title": "Painting Basics",
+      "description": "An artistic course focusing on basic painting techniques using various mediums.",
+      "category": "Art",
+      "type": "COURSE",
+      "gradeRange": "4th–6th",
+      "minAge": 9,
+      "maxAge": 12,
+      "price": 95.5,
+      "nextSessionDate": "2025-09-15T14:00:00Z"
+    }
+  ],
+  "pageable": {
+    "pageNumber": 0,
+    "pageSize": 5,
+    "sort": { "empty": true, "sorted": false, "unsorted": true },
+    "offset": 0,
+    "paged": true,
+    "unpaged": false
+  },
+  "last": true,
+  "totalElements": 1,
+  "totalPages": 1,
+  "size": 5,
+  "number": 0,
+  "sort": { "empty": true, "sorted": false, "unsorted": true },
+  "first": true,
+  "numberOfElements": 1,
+  "empty": false
+}
+```
+Note: the output may be changed based on the file content
+
+## 📝 Notes
+* Elasticsearch index name: `courses`
+* Sample data file: `src/main/resources/sample-courses.json`
+* Default server port: `8080`
+* Elasticsearch port: `9200`
