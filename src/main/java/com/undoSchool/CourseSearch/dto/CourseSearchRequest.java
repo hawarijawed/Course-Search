@@ -14,4 +14,8 @@ public class CourseSearchRequest {
     private String minPrice;
     private String maxPrice;
     private Instant nextSessionFrom;
+
+    private String sort;
+    private Integer page;
+    private Integer size;
 }

@@ -6,6 +6,7 @@ import com.undoSchool.CourseSearch.repository.CourseRepository;
 import com.undoSchool.CourseSearch.service.CourseSearchService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -40,7 +41,7 @@ public class CourseController {
     }
 
     @PostMapping("/search")
-    public List<CourseModel> searchCourses(@RequestBody CourseSearchRequest request) {
+    public Page<CourseModel> searchCourses(@RequestBody CourseSearchRequest request) {
         log.info("Search request: {}", request);
         return courseSearchService.searchCourses(request);
     }
