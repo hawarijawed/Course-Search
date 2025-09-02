@@ -139,3 +139,17 @@ Note: the output may be changed based on the file content
 * Sample data file: `src/main/resources/sample-courses.json`
 * Default server port: `8080`
 * Elasticsearch port: `9200`
+* Course Search request can be made using any of the below parameters
+  ```
+   query;
+   category;
+   type;
+   minAge;
+   maxAge;
+   minPrice;
+   maxPrice;
+   nextSessionFrom;
+   sort;
+   page;
+   size;
+  ```
